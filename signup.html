@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>W-Delivery | Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><h1>W-Delivery</h1></a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="Orders.html">Orders</a>
+                    <a href="#contact">Contact</a>
+                    <a href="login.html">Login</a>
+                    <a href="signup.html">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="login">
+        <div class="login-filter">
+            <form id="signupForm" class="login-content">
+                <input type="text" id="name" placeholder="Enter Your name" required>
+                <input type="number" id="phone" placeholder="Enter Your phone" required>
+                <input type="email" id="email" placeholder="Enter Your email" required>
+                <input type="password" id="password" placeholder="Enter Your password" required>
+                <div class="bttnn">
+                    <button type="button" class="btn" onclick="submitFormData()">Sign Up</button>
+                </div>
+                <p id="errorMessages"></p>
+                <p>
+                    <small>Have an account?</small>
+                    <a href="login.html">Login</a>
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1>W-Delivery</h1>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/omar.moustafa.167527" target="_blank"><img src="images/facebook-icon.webp" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/in/omar-elkheshen-922a68218/" target="_blank"><img src="images/Linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/OmarElkeshen38" target="_blank"><img src="images/GitHub-icon.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
